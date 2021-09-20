@@ -1,0 +1,142 @@
+.file {
+	border: 1px solid #DADCE0;
+	border-radius: 8px;
+	cursor: context-menu;
+	position: relative;
+	height:  190px;
+	width:  217px;
+}
+
+.file__img {
+	width: 100%;
+	height: 118px;
+	border-bottom:  1px solid #DADCE0;
+	object-fit: cover;
+}
+
+.file__bottom {
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 500;
+	color: #A5A5A5;
+	background: #fff;
+}
+
+.file__fileIconContainer {
+	width: 100%;
+	height: 118px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.file__fileIcon {
+	font-size: 60px !important;
+}
+
+.file__bottom--name {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.file__bottom--imgIcon {
+	color: #D93025 !important;
+	margin: 0px 10px 0px 0px !important;
+}
+
+.file__openFile {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background: rgba(39, 39, 39, 0.9);
+	z-index: 20;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.file__activeOpenFile {
+	display: none;
+}
+
+.file__openFile--top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	padding: 0px 20px;
+}
+
+.file__openFile--top > div {
+	display: flex;
+	align-items: center;
+}
+
+.file__openFile--top > div > * {
+	margin: 0px 10px 0px 0px;
+	color: #fff;
+}
+
+.file__openFile--top--fileName {
+	cursor: pointer;
+}
+
+.file__openFile--top--imageIcon {
+	color: #D93025 !important;
+	font-size: 35px !important;
+}
+
+.file__openFile--top--icons > *,
+.file__openFile--top--backIcon {
+	border-radius: 2px !important;
+	width: 40px !important;
+	height: 35px !important;
+}
+
+.file__openFile--top--icons > *:hover,
+.file__openFile--top--backIcon:hover {
+	background: rgba(255, 255, 255, 0.2) !important;
+}
+
+.file__openFile--top--button {
+	background: #121212 !important;
+}
+
+.file__openFile--top--button:hover {
+	background: #444444 !important;
+}
+
+.file__openFile__image {
+	width: 100%;
+	height: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 200ms linear;
+}
+
+.file__openFile__image img {
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+}
+
+.file__openFile__bottom {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: fit-content;
+	padding: 0px 0px 20px 0px;
+}
+
+.file__openFile__bottom div {
+	background-color: #060505;
+}
+.file__openFile__bottom div > * {
+	color: #fff !important;
+}

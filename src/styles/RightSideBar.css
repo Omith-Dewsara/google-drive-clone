@@ -1,0 +1,70 @@
+.rightSideBar {
+	width: fit-content;
+	padding: 20px 6px;
+	border-left: 2px solid #F1F3F4;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: hidden;
+}
+
+.rightSideBar__icons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.rightSideBar__icons>* {
+	width: 40px !important;
+	height: 40px !important;
+	margin:  0px 0px 30px 0px !important;
+}
+
+.rightSideBar__icons img {
+	width: 20px;
+}
+
+.rightSideBar__icon {
+	width: 40px !important;
+	height: 40px !important;
+	margin: 20px 0px 0px 0px !important;
+}
+
+.rightSideBar__hr {
+	width: 50%;
+	height: 2px;
+	background: #F1F3F4;
+}
+
+.rightSideBar__uploadingMsg {
+	position: absolute;
+	width: 300px;
+	height: 120px;
+	right: 20px;
+	bottom: 20px;
+	background: #fff;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	padding: 0px 20px;
+	transform: translateX(130%);
+	transition: all 300ms linear;
+}
+
+.rightSideBar__uploadingMsg>div {
+	font-size: 20px;
+	margin: 0px 0px 0px 20px;
+}
+
+.rightSideBar__uploadingMsg--closeIcon {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	cursor: pointer !important;
+}
+
+.rightSideBar__activeUploadingMsg {
+	transform: translateX(0%) !important;
+}

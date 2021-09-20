@@ -1,0 +1,33 @@
+.fileOptions {
+	position: absolute;
+	top: 30%;
+	left: 60%;
+	width: 300px;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	background: #fff;
+	top: 0;
+	display: none;
+	z-index: 10;
+}
+
+.fileOptions>div {
+	display: flex;
+	padding: 5px 10px;
+	color: #5F6368;
+}
+
+
+.fileOptions>div:hover {
+	background: #F5F5F5;
+	cursor: pointer;
+}
+
+.fileOptions>hr {
+	margin: 5px 0px;
+}
+
+.fileOptions div div  {
+	margin: 0px 0px 0px 10px;
+}

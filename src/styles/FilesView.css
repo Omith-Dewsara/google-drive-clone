@@ -1,0 +1,23 @@
+.filesView {
+	width: 100%;
+	/*height: fit-content;*/
+	overflow-x: hidden;
+	overflow-y: scroll;
+	padding: 0px 20px 50px 20px;
+}
+
+.filesView__files {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%	;	
+}
+
+.filesView__files > * {
+	margin: 0px 20px 20px 0px;
+}
+
+.filesView__title {
+	font-weight: 500;
+	color: #72757A;
+	padding: 20px 0px;
+}
